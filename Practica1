@@ -1,7 +1,65 @@
 # **Qué es Visual Studio Code y qué ventajas ofrece**
 
-## Índice:
+Índice:**
     1. Qué es Visual Studio Code
     2. Características de Visual Studio Code
     3. Para qué sirve Visual Studio Code
+    4. Como instalar Visual Studio Code
+        4.1. Instalar Visual Studio Code en Windows
+        4.2. Instalar Visual Studio Code en Linux
+        4.3. Visual Studio Code para la Web
 
+En un rápido y cambiante mundo de desarrollo de software, es muy importante mantenerse actualizado con las herramientas que ayuden a agilizar las tareas y, por consiguiente, tener mayor productividad. En todas las áreas es fundamental estar al día con las novedades, pero en el área de Tecnología es un mandamiento, tenemos que estar aprendiendo continuamente y utilizar las mejores herramientas. Evidentemente, para el desarrollo de aplicaciones se necesita un editor de código, y Visual Studio Code es el editor más utilizado en la actualidad.
+
+Con el crecimiento de Cloud Computing, la automatización se ha llevado a otro nivel, la infraestructura como código es prueba de ello, por lo tanto, los editores de código no están limitados a los desarrolladores de software o programadores, también son utilizados por quienes se dedican a la parte de infraestructura, y más si se trabaja con una cultura DevOps. ¡Ahora todos escribimos código! Continúa leyendo y conocerás las ventajas de Visual Studio Code, las características, para qué sirve más allá de escribir código, y algunas extensiones disponibles que te serán de utilidad.
+
+Qué es Visual Studio Code**
+Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
+
+Características de Visual Studio Code**
+VS Code tiene una gran variedad de características útiles para agilizar el trabajo, que lo hacen el editor preferido por muchos (me incluyo) para trabajar los proyectos.
+
+Multiplataforma:** Es una característica importante en cualquier aplicación y más si trata de desarrollo. Visual Studio Code está disponible para Windows, GNU/Linux y macOS.
+
+IntelliSense:** Esta característica está relacionada con la edición de código, autocompletado y resaltado de sintaxis, lo que permite ser más ágil a la hora de escribir código. Como su nombre lo indica, proporciona sugerencias de código y terminaciones inteligentes en base a los tipos de variables, funciones, etc. Con la ayuda de extensiones se puede personalizar y conseguir un IntelliSense más completo para cualquier lenguaje.
+
+Depuración: Visual Studio Code incluye la función de depuración que ayuda a detectar errores en el código. De esta manera, nos evitamos tener que revisar línea por línea a puro ojo humano para encontrar errores. VS Code también es capaz de detectar pequeños errores de forma automática antes de ejecutar el código o la depuración como tal.
+
+Uso del control de versiones: Visual Studio Code tiene compatibilidad con Git, por lo que puedes revisar diferencias o lo que conocemos con git diff, organizar archivos, realizar commits desde el editor, y hacer push y pull desde cualquier servicio de gestión de código fuente (SMC). Los demás SMC están disponible por medio de extensiones.
+
+Extensiones: Hasta ahora, he mencionado varias veces el término extensiones porque es uno de los puntos fuertes. Visual Studio Code es un editor potente y en gran parte por las extensiones. Las extensiones nos permiten personalizar y agregar funcionalidad adicional de forma modular y aislada. Por ejemplo, para programar en diferentes lenguajes, agregar nuevos temas al editor, y conectar con otros servicios. Realmente las extensiones nos permiten tener una mejor experiencia, y lo más importante, no afectan en el rendimiento del editor, ya que se ejecutan en procesos independientes.
+
+Para qué sirve Visual Studio Code
+Es importante entender qué es Visual Studio Code y para qué sirve. Como se ha resumido anteriormente, VS Code es un editor de código optimizado que proporciona muchas facilidades para escribir, depurar y probar código. ¿Qué lenguajes soporta visual Studio Code? Inicialmente incluye un mínimo de componentes y funciones básicas de un editor con soporte nativo para JavaScript/TypeScript y Node.js, sin embargo, es personalizable con los cientos de plugins o extensiones disponibles para escribir código en diferentes lenguajes.
+
+VS Studio Code incluye una terminal con todas las funciones, la cual se inicia fácilmente en el directorio de trabajo. La terminal integrada puede utilizar cualquier Shell instalado en el equipo, como PowerShell, Bash o cualquier otro. Contar con una terminal en el propio editor es de gran utilidad para ejecutar diferentes comandos necesarios cuando estamos desarrollando.
+
+VS Code cuenta con funcionalidades sorprendentes de gran provecho para cualquier profesional de IT, no está limitado para desarrollar un tipo de aplicación, va más allá. Con las extensiones adecuadas es posible conectarse remotamente a máquinas virtuales por medio de SSH, contenedores y WSL (Windows Subsystem for Linux), obtener acceso al sistema de archivos, y por supuesto, gestión desde la terminal. También, sirve para trabajar e implementar aplicaciones en contenedores y gestionar clusters de Kubernetes. La integración con Microsoft Azure es formidable, por lo tanto, abre otro abanico de posibilidades para trabajar con VS Code. Más adelante, se listarán las mejores extensiones de Visual Studio Code.
+
+Algo importante y una ventaja con respecto a un IDE completo que incluye todos los componentes en un solo paquete, es que, con VS Code puedes instalar únicamente las herramientas de desarrollo requeridas, y personalizarlo de acuerdo con tus necesidades. Si te interesa ver con más detalles la diferencia con un IDE como Visual Studio, pásate por nuestro blog y lee el artículo El potencial de Visual Studio.
+
+Cómo instalar Visual Studio Code
+A continuación, las instrucciones para instalar VS Code.
+
+Instalar Visual Studio Code en Windows
+En Windows siempre tenemos la opción tradicional de descargar el instalador y ejecutarlo, pero con la línea de comandos podemos tener más agilidad. En Windows podemos utilizar Chocolatey.
+
+choco install vscode
+
+Chocolatey es un gestor de paquetes e instalador de línea de comandos para software de Windows. En caso de no tenerlo instalado, puedes hacerlo con las instrucciones del sitio oficial chocolatey.org en la página install.
+
+Instalar Visual Studio Code en Linux
+Para instalar VS Code en sistemas GNU/Linux, también hay varias alternativas. En distribuciones basadas en Debian y Ubuntu, podemos descargar el paquete .deb e instalarlo, también podemos hacer una instalación manual del repositorio y la clave con ciertas instrucciones, y otra alternativa sencilla es la que te mostraré usando el gestor de paquetes Snap.
+
+sudo snap install code --classic
+
+De la misma forma, en distribuciones basadas en RHEL, CentOS y Fedora tenemos las mismas opciones para instalar VS Code, por supuesto que hay algunas diferencias, por ejemplo, es un paquete .rpm en lugar de un .deb.
+
+Finalmente, tanto en Windows como en GNU/Linux puedes abrir Visual Studio Code localizando la aplicación desde la interfaz gráfica o ejecutando directamente desde la línea de comandos:
+
+code
+
+Visual Studio Code para la Web
+Visual Studio Code para la Web es una versión que no requiere instalación, dado que se ejecuta completamente en el navegador web, permite ver de forma rápida los repositorios de código fuente y realizar cambios en el código. Para usar Visual Studio Code en la web, solo debes ingresar al siguiente enlace: https://vscode.dev.
+
+VS Code para la Web tiene muchas características de VS Code Desktop como la búsqueda, el autocompletado y el resaltado de sintaxis. También, soporta extensiones y permite abrir repositorios directamente desde GitHub y Azure Repos, y por supuesto, puedes trabajar con código alojado en el equipo local. Sin embargo, VS Code para la web tiene algunas limitaciones en comparación con la versión de escritorio, no tiene una terminal integrada, no es posible compilar o depurar código, y solo ciertas extensiones están disponibles para ejecutarse en la versión web.
