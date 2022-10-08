@@ -1,6 +1,6 @@
 # **Qué es Visual Studio Code y qué ventajas ofrece**
 
-Índice:**
+## **Índice:**
     1. Qué es Visual Studio Code
     2. Características de Visual Studio Code
     3. Para qué sirve Visual Studio Code
@@ -13,23 +13,25 @@ En un rápido y cambiante mundo de desarrollo de software, es muy importante man
 
 Con el crecimiento de Cloud Computing, la automatización se ha llevado a otro nivel, la infraestructura como código es prueba de ello, por lo tanto, los editores de código no están limitados a los desarrolladores de software o programadores, también son utilizados por quienes se dedican a la parte de infraestructura, y más si se trabaja con una cultura DevOps. ¡Ahora todos escribimos código! Continúa leyendo y conocerás las ventajas de Visual Studio Code, las características, para qué sirve más allá de escribir código, y algunas extensiones disponibles que te serán de utilidad.
 
-Qué es Visual Studio Code**
+![VSCodeLogo](vscodelogo.png)
+
+## **Qué es Visual Studio Code**
 Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
 
-Características de Visual Studio Code**
+## **Características de Visual Studio Code**
 VS Code tiene una gran variedad de características útiles para agilizar el trabajo, que lo hacen el editor preferido por muchos (me incluyo) para trabajar los proyectos.
 
-Multiplataforma:** Es una característica importante en cualquier aplicación y más si trata de desarrollo. Visual Studio Code está disponible para Windows, GNU/Linux y macOS.
+* **Multiplataforma:** Es una característica importante en cualquier aplicación y más si trata de desarrollo. Visual Studio Code está disponible para Windows, GNU/Linux y macOS.
 
-IntelliSense:** Esta característica está relacionada con la edición de código, autocompletado y resaltado de sintaxis, lo que permite ser más ágil a la hora de escribir código. Como su nombre lo indica, proporciona sugerencias de código y terminaciones inteligentes en base a los tipos de variables, funciones, etc. Con la ayuda de extensiones se puede personalizar y conseguir un IntelliSense más completo para cualquier lenguaje.
+* **IntelliSense:** Esta característica está relacionada con la edición de código, autocompletado y resaltado de sintaxis, lo que permite ser más ágil a la hora de escribir código. Como su nombre lo indica, proporciona sugerencias de código y terminaciones inteligentes en base a los tipos de variables, funciones, etc. Con la ayuda de extensiones se puede personalizar y conseguir un IntelliSense más completo para cualquier lenguaje.
 
-Depuración: Visual Studio Code incluye la función de depuración que ayuda a detectar errores en el código. De esta manera, nos evitamos tener que revisar línea por línea a puro ojo humano para encontrar errores. VS Code también es capaz de detectar pequeños errores de forma automática antes de ejecutar el código o la depuración como tal.
+* **Depuración:** Visual Studio Code incluye la función de depuración que ayuda a detectar errores en el código. De esta manera, nos evitamos tener que revisar línea por línea a puro ojo humano para encontrar errores. VS Code también es capaz de detectar pequeños errores de forma automática antes de ejecutar el código o la depuración como tal.
 
-Uso del control de versiones: Visual Studio Code tiene compatibilidad con Git, por lo que puedes revisar diferencias o lo que conocemos con git diff, organizar archivos, realizar commits desde el editor, y hacer push y pull desde cualquier servicio de gestión de código fuente (SMC). Los demás SMC están disponible por medio de extensiones.
+* **Uso del control de versiones:** Visual Studio Code tiene compatibilidad con Git, por lo que puedes revisar diferencias o lo que conocemos con git diff, organizar archivos, realizar commits desde el editor, y hacer push y pull desde cualquier servicio de gestión de código fuente (SMC). Los demás SMC están disponible por medio de extensiones.
 
-Extensiones: Hasta ahora, he mencionado varias veces el término extensiones porque es uno de los puntos fuertes. Visual Studio Code es un editor potente y en gran parte por las extensiones. Las extensiones nos permiten personalizar y agregar funcionalidad adicional de forma modular y aislada. Por ejemplo, para programar en diferentes lenguajes, agregar nuevos temas al editor, y conectar con otros servicios. Realmente las extensiones nos permiten tener una mejor experiencia, y lo más importante, no afectan en el rendimiento del editor, ya que se ejecutan en procesos independientes.
+* **Extensiones:** Hasta ahora, he mencionado varias veces el término extensiones porque es uno de los puntos fuertes. Visual Studio Code es un editor potente y en gran parte por las extensiones. Las extensiones nos permiten personalizar y agregar funcionalidad adicional de forma modular y aislada. Por ejemplo, para programar en diferentes lenguajes, agregar nuevos temas al editor, y conectar con otros servicios. Realmente las extensiones nos permiten tener una mejor experiencia, y lo más importante, no afectan en el rendimiento del editor, ya que se ejecutan en procesos independientes.
 
-Para qué sirve Visual Studio Code
+## **Para qué sirve Visual Studio Code**
 Es importante entender qué es Visual Studio Code y para qué sirve. Como se ha resumido anteriormente, VS Code es un editor de código optimizado que proporciona muchas facilidades para escribir, depurar y probar código. ¿Qué lenguajes soporta visual Studio Code? Inicialmente incluye un mínimo de componentes y funciones básicas de un editor con soporte nativo para JavaScript/TypeScript y Node.js, sin embargo, es personalizable con los cientos de plugins o extensiones disponibles para escribir código en diferentes lenguajes.
 
 VS Studio Code incluye una terminal con todas las funciones, la cual se inicia fácilmente en el directorio de trabajo. La terminal integrada puede utilizar cualquier Shell instalado en el equipo, como PowerShell, Bash o cualquier otro. Contar con una terminal en el propio editor es de gran utilidad para ejecutar diferentes comandos necesarios cuando estamos desarrollando.
@@ -38,62 +40,62 @@ VS Code cuenta con funcionalidades sorprendentes de gran provecho para cualquier
 
 Algo importante y una ventaja con respecto a un IDE completo que incluye todos los componentes en un solo paquete, es que, con VS Code puedes instalar únicamente las herramientas de desarrollo requeridas, y personalizarlo de acuerdo con tus necesidades. Si te interesa ver con más detalles la diferencia con un IDE como Visual Studio, pásate por nuestro blog y lee el artículo El potencial de Visual Studio.
 
-Cómo instalar Visual Studio Code
+## **Cómo instalar Visual Studio Code**
 A continuación, las instrucciones para instalar VS Code.
 
-Instalar Visual Studio Code en Windows
+### **Instalar Visual Studio Code en Windows**
 En Windows siempre tenemos la opción tradicional de descargar el instalador y ejecutarlo, pero con la línea de comandos podemos tener más agilidad. En Windows podemos utilizar Chocolatey.
 
-choco install vscode
+    `choco install vscode`
 
-Chocolatey es un gestor de paquetes e instalador de línea de comandos para software de Windows. En caso de no tenerlo instalado, puedes hacerlo con las instrucciones del sitio oficial chocolatey.org en la página install.
+Chocolatey es un gestor de paquetes e instalador de línea de comandos para software de Windows. En caso de no tenerlo instalado, puedes hacerlo con las instrucciones del sitio oficial `chocolatey.org` en la página `install`.
 
-Instalar Visual Studio Code en Linux
-Para instalar VS Code en sistemas GNU/Linux, también hay varias alternativas. En distribuciones basadas en Debian y Ubuntu, podemos descargar el paquete .deb e instalarlo, también podemos hacer una instalación manual del repositorio y la clave con ciertas instrucciones, y otra alternativa sencilla es la que te mostraré usando el gestor de paquetes Snap.
+### **Instalar Visual Studio Code en Linux**
+Para instalar VS Code en sistemas GNU/Linux, también hay varias alternativas. En distribuciones basadas en Debian y Ubuntu, podemos descargar el paquete `.deb` e instalarlo, también podemos hacer una instalación manual del repositorio y la clave con ciertas instrucciones, y otra alternativa sencilla es la que te mostraré usando el gestor de paquetes `Snap`.
 
-sudo snap install code --classic
+    `sudo snap install code --classic`
 
-De la misma forma, en distribuciones basadas en RHEL, CentOS y Fedora tenemos las mismas opciones para instalar VS Code, por supuesto que hay algunas diferencias, por ejemplo, es un paquete .rpm en lugar de un .deb.
+De la misma forma, en distribuciones basadas en RHEL, CentOS y Fedora tenemos las mismas opciones para instalar VS Code, por supuesto que hay algunas diferencias, por ejemplo, es un paquete `.rpm` en lugar de un `.deb`.
 
 Finalmente, tanto en Windows como en GNU/Linux puedes abrir Visual Studio Code localizando la aplicación desde la interfaz gráfica o ejecutando directamente desde la línea de comandos:
 
-code
+    `code`
 
-Visual Studio Code para la Web
+## **Visual Studio Code para la Web**
 Visual Studio Code para la Web es una versión que no requiere instalación, dado que se ejecuta completamente en el navegador web, permite ver de forma rápida los repositorios de código fuente y realizar cambios en el código. Para usar Visual Studio Code en la web, solo debes ingresar al siguiente enlace: https://vscode.dev.
 
 VS Code para la Web tiene muchas características de VS Code Desktop como la búsqueda, el autocompletado y el resaltado de sintaxis. También, soporta extensiones y permite abrir repositorios directamente desde GitHub y Azure Repos, y por supuesto, puedes trabajar con código alojado en el equipo local. Sin embargo, VS Code para la web tiene algunas limitaciones en comparación con la versión de escritorio, no tiene una terminal integrada, no es posible compilar o depurar código, y solo ciertas extensiones están disponibles para ejecutarse en la versión web.
 
-Glosario de terminos de Git
-repository
+## **Glosario de terminos de Git**
+* **repository:**
 Un repositorio es el elemento más básico de GitHub. Es más fácil imaginarlos como carpetas de proyecto. Un repositorio contiene todos los archivos de un proyecto (incluyendo la documentación), y almacena el histórico de modificaciones de cada archivo. Los repositorios pueden tener múltiples colaboradores y pueden ser tanto públicos como privados.
 
-commit
+* **commit:**
 Un commit se puede entender como la confirmación de una modificación individual en un archivo (o serie de archivos). Es como cuando guardas un archivo, excepto que con Git, cada vez que haces commit se crea un ID único (también conocido como SHA o hash) que te permite registrar qué cambios se hicieron y quién los hizo. Los commits generalmente contienen un mensaje de commit que consiste en una breve descripción de los cambios realizados.
 
-push
+* **push:**
 Literalmente, empujar. Se refiere a enviar tus cambios confirmados (tus commits) a un repositorio remoto, como por ejemplo un repositorio alojado en GitHub. Si cambias algo localmente, querrás hacer push de esos cambios para que los demás miembros de tu equipo puedan acceder a ellos.
 
-pull
+* **pull:**
 Literalmente, tirar. Se refiere a traer los cambios del servidor remoto y combinarlos con tu copia local. Por ejemplo, si alguien ha editado el archivo remoto en el que ambos estáis trabajando, querrás hacer pull de esos cambios a tu copia local para que esté actualizada.
 
-issue
+* **issue:**
 Los issues son sugerencias de mejora, tareas o cuestiones relacionadas con el repositorio o el proyecto. Cualquiera puede crear issues (en un repositorio público), y los moderan los colaboradores del repositorio. Cada issue contiene su propio foro de dissusión, y se puede etiquetar y asignar a un usuario.
 
-pull request
+* **pull request:**
 Los pull requests o, literalmente, solicitudes de tirar, son cambios propuestos para un repositorio que un usuario ha enviado, y que pueden ser aceptados o rechazados por los colaboradores del repositorio. Igual que los issues, los pull requests tienen cada uno su propio foro de discusión.
 
-branch
+* **branch:**
 Un branch o, literalmente, rama, es una versión paralela de un repositorio. Está contenido dentro del repositorio, pero no afecta al branch principal o master, permitiéndote trabajar libremente sin estropear la versión “real”. Cuando has terminado de realizar los cambios que querías hacer, puedes hacer merge de tu branch al branch principal para publicar tus cambios.
 
-merge
+* **merge:**
 Literalmente, combinar. Hacer merge toma los cambios de un branch (en el mismo repositorio o también desde un fork), y los aplica en otro. Esto a menudo ocurre como un pull request (que se puede entender como una solicitud de hacer merge), o a través de la línea de comandos. Un merge puede realizarse automáticamente a través de un pull request en la interfaz web de GitHub siempre y cuando no haya cambios que generen conflictos, o puede hacerse siempre via línea de comandos.
 
-remote
+* **remote:**
 La versión remota es una versión de algo que está alojada en un servidor, muy probablemente GitHub en este contexto. Puede estar conectado a clones locales de forma que los cambios se sincronicen.
 
-local
+* **local:**
 La versión local es la copia que tienes del repositorio en tu ordenador, sobre la que trabajas.
 
-clone
+* **clone:**
 Un clon es la copia de un repositorio que se aloja en tu ordenador, en lugar de en un servidor en alguna parte, o el acto de realizar esa copia. En tu clone puedes editar los archivos en tu editor preferido y utilizar Git para llevar un registro de esas modificaciones sin necesidad de tener conexión a internet. Sin embargo, este clon está conectado a la versión remota de forma que los cambios se puedan sincronizar entre ambos. Puedes hacer push de tus cambios locales a la versión remota para mantenerlas sincronizadas cuando estés online.
